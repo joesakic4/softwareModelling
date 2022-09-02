@@ -24,12 +24,31 @@ We use encapsulation for security, data hiding, simplicity and astetchics.
 
 ## Abstraction
 
-Abstraction is...
+Abstraction is complex code hidden under one name. For example a "baseballBat" object can have many complex methods to calculate different aspects of the bat. The object is then an abstraction.
+
+In the middle of encapsulation and inheritance.
+
+GUI's are abstractions of code being run in the background. Makes things easier to use. 
+
+Prevents code repition
+Improves flexibility
+Working in large teams
 
 ## Inheritance
 
-Inheritance is...
+Inheritance is when a subclass takes some methods or variables from a parent class. Creates new classes from existing classes.
+An object of a subclass is also an instance of the baseclass.
+
+Inheritance reduces code complexity. If there are several subclasses derived from a base class, you only need to change one thing in the base class that affects all subclasses.
+
+Modular codebase - standalone code
+Code reuseability
+Less development
+
+Refactoring code - change the code to improve readability, but doesnt change output.
+clean code - use proper variable name, remove unneeded methods and variables
 
 ## Polymorphism
 
-Polymorphism is...
+Polymorphism is making subclasses that are slightly different from the parent class. You can make a different subclass without having to change absolutly everything
+
